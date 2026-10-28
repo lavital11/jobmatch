@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+markers = [
+    "integration: tests that hit real external services (Supabase/Groq) instead of mocks; see tests/test_search_integration.py",
+]
